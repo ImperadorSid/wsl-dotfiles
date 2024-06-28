@@ -1,0 +1,32 @@
+[user]
+	name = Moisés Carvalho
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = ~/.config/git/ignore
+[commit]
+	gpgSign = true
+[alias]
+	a = add -A
+	b = branch
+	c = checkout
+	cfg = config
+	cl = clone
+	cm = commit
+	cma = commit --amend
+	cp = cherry-pick
+	d = diff
+	f = fetch
+	i = init
+	l = log
+	m = merge
+	p = push
+	pl = pull
+	r = reset
+	re = rebase
+	rl = reflog
+	rs = restore
+	rt = remote
+	s = status
+	st = stash
+	t = ls-tree
