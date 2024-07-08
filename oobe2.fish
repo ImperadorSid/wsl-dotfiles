@@ -11,3 +11,4 @@ fzf_configure_bindings --git_log=\e\cg
 
 cp -r fish/ ~/.config
 cp -r git/ ~/.config
+cp -r direnv/ ~/.config

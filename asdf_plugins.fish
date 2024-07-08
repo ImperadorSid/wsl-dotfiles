@@ -7,18 +7,21 @@ asdf plugin-add nodejs
 asdf plugin-add yarn
 asdf plugin-add ruby
 asdf plugin-add rust
+asdf plugin-add direnv
 
 asdf install python latest
 asdf install nodejs latest
 asdf install yarn latest
 asdf install ruby latest
 asdf install rust stable
+asdf install direnv latest
 
 asdf global python latest
 asdf global nodejs latest
 asdf global yarn latest
 asdf global ruby latest
 asdf global rust stable
+asdf global direnv latest
 
 source /home/impsid/.asdf/asdf.fish
 
