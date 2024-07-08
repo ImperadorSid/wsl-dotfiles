@@ -12,7 +12,7 @@ read -U -c "$data_disk_file_name[1]" -P 'Data disk mount name: ' data_disk_mount
 
 set -U doc_dir $files_dir/Documents/
 set -U down_dir $files_dir/Downloads/
-set -U work_dir /mnt/wsl/$data_disk_mount_name
+set -U work_dir /mnt/wsl/$data_disk_mount_name/
 
 set -Ux EDITOR nvim
 
